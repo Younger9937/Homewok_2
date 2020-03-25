@@ -12,7 +12,8 @@ import android.widget.TextView;
 
 import java.io.Serializable;
 
-import chapter.android.aweme.ss.com.chapter1.R;
+import chapter.android.aweme.ss.com.chapter2.R;
+
 
 public class AuthorizeActivity extends AppCompatActivity {
 
@@ -24,7 +25,7 @@ public class AuthorizeActivity extends AppCompatActivity {
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_authorize);
+        setContentView(chapter.android.aweme.ss.com.chapter2.R.layout.activity_authorize);
         mAuthorizeLoading = findViewById(R.id.pb_loading);
         TextView mUserContent = findViewById(R.id.tv_user_content);
         Bundle extras = getIntent().getExtras();

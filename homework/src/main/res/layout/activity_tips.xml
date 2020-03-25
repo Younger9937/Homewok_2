@@ -10,21 +10,24 @@
     <RelativeLayout
         android:id="@+id/header"
         android:layout_width="match_parent"
+        android:background="@color/colorBackground"
         android:layout_height="45dp">
 
         <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="40dp"
+            android:layout_height="30dp"
             android:layout_centerInParent="true"
-            android:fontFamily="sans-serif"
             android:text="消息"
+            android:visibility="visible"
             android:textColor="#ffffff"
-            android:textSize="18sp" />
+            android:textSize="18sp"
+            android:fontFamily="sans-serif" />
     </RelativeLayout>
 
     <android.support.v7.widget.RecyclerView
         android:id="@+id/rv_list"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        tools:layoutManager="android.support.v7.widget.LinearLayoutManager"
         tools:listitem="@layout/im_list_item" />
 </LinearLayout>

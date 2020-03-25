@@ -18,6 +18,7 @@
             android:layout_height="wrap_content"
             android:layout_centerInParent="true"
             android:fontFamily="monospace"
+            android:visibility="visible"
             android:textColor="#ffffff"
             android:textSize="18sp"
             tools:text="消息" />
@@ -34,10 +35,9 @@
             android:id="@+id/tv_content_info"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:fontFamily="casual"
+            android:fontFamily="monospace"
             android:textColor="#ffffff"
             android:textSize="14sp"
-            android:textStyle="normal"
             tools:text="skdjskdjskdjskdjskdjs" />
 
     </ScrollView>
